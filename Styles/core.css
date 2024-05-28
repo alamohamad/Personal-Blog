@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4,em,strong ,i,b{
+    color: #847577;
+}
+
+
+strong,b{
+    font-size: larger;
+    display: block;
+    margin-bottom: 5px;
+}
+.whiteFont {
+    color: #ffffff;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+   display: flex;
+   justify-content: flex-start;
+    font-style: italic;
+    padding: 2px;
+  }

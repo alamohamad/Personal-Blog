@@ -1,0 +1,64 @@
+
+#avatar{
+    border-radius: 0 0 0 30%;
+}
+
+
+
+
+
+.box{
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+
+.content1{
+    grid-area: main;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e6e4;
+}
+
+.content1 blockqoute{
+    margin-top: 3px;
+    font-size: large;
+    padding:0 5%  0 5%;/
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  
+}
+
+.sidebar{
+    grid-area: sd;
+    flex-direction: column;
+}
+
+.sideCards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #e5e6e4;
+    margin: 3px;
+    padding: 10px;
+}
+
+.sideCards i{
+    display: block;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.sideCards b{
+    display: block;
+    font-size: larger;
+    margin-bottom: 5px;
+}
