@@ -1,7 +1,6 @@
 
 .header{
     display: flex;
-    justify-content: flex-end;
     grid-area: hd;
     background-color: #847577;
 }
